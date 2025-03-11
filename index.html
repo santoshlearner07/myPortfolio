@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="container">
+    <div class="fixed-sidebar">
+        <a href="#home" class="nav-icon" data-tooltip="Home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about" class="nav-icon" data-tooltip="About"><i class="fa-solid fa-user"></i></a>
+        <a href="#experience" class="nav-icon" data-tooltip="Education & Work Experience"><i class="fa-solid fa-briefcase"></i></a>
+        <a href="#projects" class="nav-icon" data-tooltip="Projects"><i class="fa-solid fa-folder"></i></a>
+        <a href="#contact" class="nav-icon" data-tooltip="Contact"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <img src="./assessts//Profile.jpg" alt="Santosh Nandiyawar" class="profile-img">
+            <h1 class="display-4">Santosh Nandiyawar</h1>
+            <p class="lead">I'm <u><span id="profession">Web Developer</span></u><span id="cursor">|</span></p>
+            <!-- <a href="#projects" class="btn btn-primary">View Projects</a> -->
+        </div>
+    </section>
+    <section id="about" class="text-center">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                <i class="fa-solid fa-globe"></i> Full Stack Developer | <i class="fa-brands fa-react"></i> React,
+                Node.js, Next.js, Python, Java | <i class="fa-solid fa-money-bill-trend-up"></i> Scalable Web Apps |
+                <i class="fa-solid fa-cloud"></i> Cloud & Microservices
+                <br /> <i class="fa-solid fa-door-open"></i> Open to Opportunities
+            </p>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4" style="height: 100vh; overflow: hidden;">
+                    <img src="./assessts/Self.jpg" alt="My Image" class="img-fluid"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <!-- Right Content Column -->
+                <div class="col-md-8" style="height: 100vh; overflow-y: auto;">
+                    <div class="card-body" style="overflow: visible;">
+                        <h3 class="card-title">Fullstack Developer</h3>
+                        <p>
+                            Recent MSc Computer Science graduate with 2.5+ years of experience in building scalable web
+                            applications. Proficient in
+                            <strong>JavaScript, Angular.js, Next.js, Node.js</strong>, and backend technologies like
+                            <strong>Express.js, MongoDB, PostgreSQL</strong>. Experienced in
+                            <strong>CI/CD workflows, Docker, and cloud services (AWS, Azure)</strong>. Strong foundation
+                            in
+                            <strong>OOP, RESTful APIs, and Agile methodologies</strong>. Passionate about writing clean,
+                            testable code and contributing to innovative SaaS products.
+                        </p>
+                        <span class="row biodata">
+                            <div class="col">
+                                <i class="fa-solid fa-arrow-right"></i> Birthday : 07/01/1999 <br />
+                                <i class="fa-solid fa-arrow-right"></i> Degree : Master's Computer Science <br />
+                                <i class="fa-solid fa-arrow-right"></i> Mobile : +44 7393 063349
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-arrow-right"></i> Email : santoshdn.0719@gmail.com <br />
+                                <i class="fa-solid fa-arrow-right"></i> City : Swansea, UK (Relocatable) <br />
+                                <i class="fa-solid fa-arrow-right"></i> Freelance : Available
+                            </div>
+                        </span>
+                        <div class="container">
+                            <h3 class="text-center mb-4"><u>Skills</u></h3>
+
+                            <div class="row">
+                                <!-- Frontend Skills -->
+                                <div class="col-md-4">
+                                    <h4>Frontend</h4>
+                                    <ul class="list-unstyled">
+                                        <li><strong>React.js</strong>: Developed dynamic, responsive applications with
+                                            React using hooks, context API, and state management.</li>
+                                        <li><strong>JavaScript</strong>: Extensive experience in ES6+, asynchronous
+                                            programming (async/await), and DOM manipulation.</li>
+                                        <li><strong>TailwindCSS</strong>: Utilized TailwindCSS for utility-first styling
+                                            in projects to ensure scalability and maintainability.</li>
+                                        <li><strong>Angular</strong>: Built single-page applications (SPAs) with
+                                            Angular, using components, services, and dependency injection.</li>
+                                        <li><strong>HTML5, CSS3</strong>: Proficient in HTML5 for semantic structure and
+                                            CSS3 for responsive layouts using Flexbox and Grid.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Backend & APIs -->
+                                <div class="col-md-4">
+                                    <h4>Backend & APIs</h4>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Node.js</strong>: Built scalable server-side applications with
+                                            Node.js and integrated with databases.</li>
+                                        <li><strong>Express.js</strong>: Developed RESTful APIs using Express, ensuring
+                                            optimal routing and error handling.</li>
+                                        <li><strong>RESTful APIs</strong>: Designed and implemented RESTful APIs for
+                                            data exchange, with authentication (JWT, OAuth).</li>
+                                        <li><strong>GraphQL</strong>: Used GraphQL for querying data in a more flexible,
+                                            efficient manner than traditional REST APIs.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Cloud & DevOps -->
+                                <div class="col-md-4">
+                                    <h4>Cloud Services & DevOps</h4>
+                                    <ul class="list-unstyled">
+                                        <li><strong>AWS, Azure</strong>: Deployed applications to AWS and Azure,
+                                            leveraging services like EC2, S3, Lambda, and Azure Functions.</li>
+                                        <li><strong>Docker</strong>: Created Docker containers for development and
+                                            production environments, improving portability and consistency.</li>
+                                        <li><strong>Kubernetes</strong>: Orchestrated containerized applications with
+                                            Kubernetes for high availability and scaling.</li>
+                                        <li><strong>CI/CD</strong>: Automated deployment pipelines using GitHub Actions
+                                            and Jenkins to ensure continuous integration and delivery.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <!-- Databases -->
+                                <div class="col-md-6">
+                                    <h4>Databases</h4>
+                                    <ul class="list-unstyled">
+                                        <li><strong>PostgreSQL</strong>: Designed complex queries, optimized
+                                            performance, and maintained relational databases.</li>
+                                        <li><strong>MySQL</strong>: Experience in relational database design, including
+                                            stored procedures, indexing, and query optimization.</li>
+                                        <li><strong>MongoDB</strong>: Implemented NoSQL databases for high-performance,
+                                            unstructured data storage in web applications.</li>
+                                        <li><strong>Microsoft SQL Server</strong>: Managed and maintained databases,
+                                            focusing on security, scalability, and performance.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Software Development & Testing -->
+                                <div class="col-md-6">
+                                    <h4>Software Development & Testing</h4>
+                                    <ul class="list-unstyled">
+                                        <li><strong>Agile (Scrum, Kanban)</strong>: Worked in Agile environments using
+                                            Scrum and Kanban for project management and sprint planning.</li>
+                                        <li><strong>Test-Driven Development (TDD)</strong>: Emphasized writing unit
+                                            tests before code to ensure high-quality and maintainable software.</li>
+                                        <li><strong>Jest, Cypress</strong>: Used Jest for unit testing and Cypress for
+                                            end-to-end testing, ensuring robust application functionality.</li>
+                                        <li><strong>Git, GitHub</strong>: Version control using Git and GitHub for
+                                            collaboration and codebase management in teams.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4"><u>Education & Work Experience</u></h2>
+            <div class="row">
+                <!-- Education Section -->
+                <div class="col-md-6">
+                    <h3 class="text-center">Education</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Master’s Degree in Computer Science</h5>
+                            <p>Swansea University, UK (2024)</p>
+                            <p>During my <b>Master’s in Computer Science</b>, I honed my skills in <b>Java, JavaFX, SQL,
+                                    and the MERN stack</b> while working on various projects. For my
+                                <b>dissertation</b>, I developed a full-stack application titled <b>"One Stop for Luxury
+                                    Items"</b>, designed to streamline <b>property search and prioritization</b>. This
+                                application enables users to <b>filter properties</b> based on key criteria such as
+                                <b>location, number of bedrooms, bathrooms, and price range</b>. By integrating the
+                                <b>Google Maps API</b>, I enhanced user experience by allowing them to <b>visualize
+                                    property locations, measure distances from their current home, and make informed
+                                    decisions faster</b>.</p>
+                        </li>
+                        <li>
+                            <h5>Bachelor’s Degree in Mechanical Engineering</h5>
+                            <p>Sinhgad Institute of Technology and Science, India (2020)</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Work Experience Section -->
+                <div class="col-md-6">
+                    <h3 class="text-center">Work Experience</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h5>Junior Software Engineer</h5>
+                            <p>ProArch (Mar 2022 - Jul 2023)</p>
+                            <p>
+                                Developed and maintained scalable web applications using <b>React</b> for the front end
+                                and <b>Node.js</b> for backend services. Improved database efficiency by optimizing
+                                <b>SQL & NoSQL architectures</b>, reducing query execution time by <b>40%</b>.
+                                Strengthened security with <b>OAuth & JWT authentication</b>, enforcing <b>role-based
+                                    access control</b>. Enhanced software quality through <b>Test-Driven Development
+                                    (TDD)</b>, CI/CD automation, and Agile collaboration. These improvements resulted in
+                                <b>better scalability, security, and maintainability</b> for enterprise clients.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>Process Executive</h5>
+                            <p>Randstad (Apr 2021 - Mar 2022)</p>
+                            <p>
+                                Started as a Labeller and quickly advanced to Quality Assurance (QA) within three
+                                months. Reviewed and tested the work of other labellers, ensuring high accuracy and
+                                consistency. Consistently maintained a 98% performance score, demonstrating attention to
+                                detail and a strong commitment to quality.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="text-center mt-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div id="project3Carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assessts/1.jpg" class="d-block w-100" alt="Project 3 - Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/2.jpg" class="d-block w-100" alt="Project 3 - Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/3.jpg" class="d-block w-100" alt="Project 3 - Image 3">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="./assessts/4.jpg" class="d-block w-100" alt="Project 3 - Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/5.jpg" class="d-block w-100" alt="Project 3 - Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/6.jpg" class="d-block w-100" alt="Project 3 - Image 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/7.jpg" class="d-block w-100" alt="Project 3 - Image 3">
+                                </div>
+                            </div>
+                            <!-- Carousel Controls (Previous & Next) -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#project3Carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#project3Carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Restaurant Management System</h5>
+                            <h6>(Java + JavaFX + MySQL)</h6>
+                            <p class="card-text">
+                                This system streamlines hotel operations by managing Table bookings, customer
+                                check-ins/check-outs, staff details, and food cooked processing. The JavaFX-based
+                                user-friendly interface ensures seamless interaction, while MySQL securely stores all
+                                reservation and customer/staff information. The system enhances efficiency by automating
+                                key Restaurant functions, reducing errors, and improving customer service through quick
+                                data retrieval and report generation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div id="project3Carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assessts/11.png" class="d-block w-100" alt="Project 3 - Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/12.png" class="d-block w-100" alt="Project 3 - Image 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assessts/13.png" class="d-block w-100" alt="Project 3 - Image 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#project3Carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#project3Carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Real Estate Property Prioritization App</h5>
+                            <h6>(MERN + Google Maps API)</h6>
+                            <p class="card-text">This app helps users prioritize and find properties based on key
+                                criteria such as location, number of bedrooms, bathrooms, and price range. Integrated
+                                with Google Maps API, it allows users to visualize property locations, measure distances
+                                from their current home, and make informed decisions faster.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <!-- <img src="project2.jpg" class="card-img-top" alt="Project 2"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">User Profile Management with Image Upload</h5>
+                            <h6>(MERN + Multer + MongoDB)</h6>
+                            <p class="card-text">This feature enhances the user experience by allowing them to upload
+                                and manage their profile pictures securely. Stored as a buffer in MongoDB using Multer,
+                                the images load efficiently, improving personalization while ensuring fast and reliable
+                                image retrieval.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <!-- <img src="project2.jpg" class="card-img-top" alt="Project 2"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">User Authentication & Access Control</h5>
+                            <h6>(SQL + Node.js + JWT)</h6>
+                            <p class="card-text">This system provides secure user authentication using JWT (JSON Web
+                                Tokens), allowing applications to manage user logins, roles, and permissions. It
+                                prevents unauthorized access and enhances security by implementing encrypted password
+                                storage and session management techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 text-center">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <span class="fs-5">
+                <a href="https://www.linkedin.com/in/santoshnandiyawar" target="_blank" class="text-dark">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a> |
+                <a href="mailto:santoshdn.0719@gmail.com" class="text-dark">
+                    <i class="fa-solid fa-envelope"></i>
+                </a> |
+                <a href="tel:+447393063349" class="text-dark">
+                    <i class="fa-solid fa-phone"></i>
+                </a> |
+                <a href="https://www.instagram.com/guy_with.mt15" target="_blank" class="text-dark">
+                    <i class="fa-brands fa-instagram"></i>
+                </a> |
+                <a href="https://wa.me/+447393063349" target="_blank" class="text-dark">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a> |
+                <a href="https://twitter.com/santoshnandiya1" target="_blank" class="text-dark">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </span>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Santosh Nandiyawar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
